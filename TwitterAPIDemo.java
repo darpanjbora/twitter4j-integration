@@ -33,11 +33,11 @@ import twitter4j.conf.Configuration;
 import twitter4j.conf.ConfigurationBuilder;
         
 public class TwitterAPIDemo {
-
-        private static final String consumerKey = "yIoszVby4C7OW0PaowLPYPUTC";
-        static private final String consumerSecret = "3AhQ5COHq4ta7RnL9jRAjs8DUFWW8N8YcGWBf5rJ6WFHuy8cyl";
-        static private final String accessToken = "86708606-60H0U6CTQsYcbfTsK2pWcQiGfP4t8fbVKucq8F6qf";
-        static private final String accessTokenSecret = "6jp9pun90s0na5u9JL1XmtLfCVqqVmrdvSdRPn1pzwcNw";
+        //Enter the consumer key , consumer secret key, access token and access token secret by generating from the twiiter developers site.
+        private static final String consumerKey = "********************";
+        static private final String consumerSecret = "***********************";
+        static private final String accessToken = "**********-***********";
+        static private final String accessTokenSecret = "********************";
         
         
     public static void main(String[] args) throws IOException, TwitterException {
